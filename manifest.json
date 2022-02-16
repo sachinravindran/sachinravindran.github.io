@@ -7,7 +7,7 @@
   "scope": "/",
   "lang": "en",
   "description": "Head of Technology at Mentor Merlin and Poweroins. Open Source Advocate, Avid reader, and Rigorous Gamer",
-  "categories": "personalization",
+  "categories": ["personalization"],
   "orientation": "portrait",
   "theme_color": "#685555",
   "background_color": "#d8b6b6",
@@ -15,36 +15,36 @@
     {
       "name": "Intro",
       "url": "/#intro",
-      "icons":
+      "icons":[
         {
           "src": "images/intro.png",
           "type": "image/png",
           "sizes": "96x96",
           "purpose": "any"
-        }
+        }]
     },
     {
       "name": "Work",
       "url": "/#work",
       "description": "Work",
-      "icons":
+      "icons":[
         {
           "src": "images/work.png",
           "type": "image/png",
           "sizes": "96x96",
           "purpose": "any"
-        }
+        }]
     },
     {
       "name": "Contact",
       "url": "/#contact",
-      "icons":
+      "icons":[
         {
           "src": "images/contact.png",
           "type": "image/png",
           "sizes": "96x96",
           "purpose": "any"
-        }
+        }]
     }
   ],
   "icons": [
