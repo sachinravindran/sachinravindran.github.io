@@ -22,7 +22,7 @@
           "purpose": "any"
         }
       ]
-    }
+    },
     {
       "name": "Work",
       "url": "/#work",
@@ -38,7 +38,7 @@
     },
     {
       "name": "Contact",
-      "url": "/#contact"
+      "url": "/#contact",
       "icons": [
         {
           "src": "images/contact.png",
