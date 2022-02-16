@@ -1,4 +1,0 @@
-
-  import { precacheAndRoute } from 'workbox-precaching/precacheAndRoute';
-
-  precacheAndRoute([{"revision":"dbf9d822cefe851ba6f66e1ad57e8987","url":"assets/css/fontawesome-all.min.css"},{"revision":"c803a25c2e3ed0f574bfa3067ed13327","url":"assets/css/main.css"},{"revision":"532351684b2c8479d6df7f1128a539b1","url":"assets/css/noscript.css"},{"revision":"81a479eb099e3b187613943b085923b8","url":"assets/js/breakpoints.min.js"},{"revision":"c07298dd19048a8a69ad97e754dfe8d0","url":"assets/js/browser.min.js"},{"revision":"220afd743d9e9643852e31a135a9f3ae","url":"assets/js/jquery.min.js"},{"revision":"6a2da38836c1fda15a76bafd8814e0f8","url":"assets/js/main.js"},{"revision":"fd2716a7b68ce7748c9676787b61db43","url":"assets/js/util.js"},{"revision":"01b678e0229323a0b292faede03501ee","url":"index.html"},{"revision":"d63560c81bbd3230b72fc0a3ac9fb56d","url":"sw.js"},{"revision":"083678ee7ff34d527c3ae752c7be5440","url":"workbox-6a98ad58.js"}]);
