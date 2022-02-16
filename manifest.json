@@ -742,6 +742,27 @@
   "screenshots": [
     {
       "src": "images/screenshot1.webp",
+      "sizes": "1080x2340",
+      "type": "image/webp",
+      "platform": "wide",
+      "label": "Mobile Homescreen of SachinRavindran.com"
+    },
+    {
+      "src": "images/screenshot2.webp",
+      "sizes": "1080x2340",
+      "type": "image/webp",
+      "platform": "wide",
+      "label": "Intro Section of SachinRavindran.com"
+    },
+    {
+      "src": "images/screenshot3.webp",
+      "sizes": "1080x2340",
+      "type": "image/webp",
+      "platform": "wide",
+      "label": "Contact Section of SachinRavindran.com"
+    },
+    {
+      "src": "images/screenshot4.webp",
       "sizes": "1440x724",
       "type": "image/webp",
       "platform": "wide",
