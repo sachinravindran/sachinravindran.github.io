@@ -5,9 +5,14 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="manifest" href="https://sachinravindran.com/manifest.json" />
-	<script>navigator.serviceWorker.register("https://sachinravindran.com/sw.js")</script> 
-	<script>navigator.serviceWorker.register("https://sachinravindran.com/pwabuilder-adv-sw.js")</script> 
+		//Manifest File for PWA
+		<link rel="manifest" href="manifest.json" />
+		//Service Worker for PWA
+		<script type="module">
+			import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+			const el = document.createElement('pwa-update');
+			document.body.appendChild(el);
+		 </script>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
