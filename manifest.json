@@ -744,21 +744,21 @@
       "src": "images/screenshot1.webp",
       "sizes": "1080x2340",
       "type": "image/webp",
-      "platform": "wide",
+      "platform": "narrow",
       "label": "Mobile Homescreen of SachinRavindran.com"
     },
     {
       "src": "images/screenshot2.webp",
       "sizes": "1080x2340",
       "type": "image/webp",
-      "platform": "wide",
+      "platform": "narrow",
       "label": "Intro Section of SachinRavindran.com"
     },
     {
       "src": "images/screenshot3.webp",
       "sizes": "1080x2340",
       "type": "image/webp",
-      "platform": "wide",
+      "platform": "narrow",
       "label": "Contact Section of SachinRavindran.com"
     },
     {
