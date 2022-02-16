@@ -3,7 +3,7 @@
   "display": "standalone",
   "name": "Sachin Ravindran",
   "short_name": "Sach",
-  "start_url": "/?pwa-builder",
+  "start_url": "/",
   "scope": "/",
   "lang": "en",
   "description": "Head of Technology at Mentor Merlin and Poweroins. Open Source Advocate, Avid reader, and Rigorous Gamer",
@@ -12,17 +12,41 @@
   "background_color": "#d8b6b6",
   "shortcuts": [
     {
-      "name": "Email",
-      "url": "mailto:sachin@sachinravindran.com",
-      "description": "Contact Me"
+      "name": "Intro",
+      "url": "/#intro",
+      "icons": [
+        {
+          "src": "images/intro.png",
+          "type": "image/png",
+          "sizes": "96x96",
+          "purpose": "any"
+        }
+      ]
+    }
+    {
+      "name": "Work",
+      "url": "/#work",
+      "description": "Work",
+      "icons": [
+        {
+          "src": "images/work.png",
+          "type": "image/png",
+          "sizes": "96x96",
+          "purpose": "any"
+        }
+      ]
     },
     {
-      "name": "Blog",
-      "url": "https://blog.sachinravindran.com"
-    },
-    {
-      "name": "Instagram",
-      "url": "https://www.instagram.com/sachin.ravindranath/"
+      "name": "Contact",
+      "url": "/#contact"
+      "icons": [
+        {
+          "src": "images/contact.png",
+          "type": "image/png",
+          "sizes": "96x96",
+          "purpose": "any"
+        }
+      ]
     }
   ],
   "icons": [
