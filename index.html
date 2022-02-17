@@ -50,7 +50,7 @@
 						<div class="popup">
 							<header>
 							  <span>Sachin's Portfolio App</span>
-							  <div class="closepwa"><i class="uil uil-times"></i></div>
+							  <div class="closepwa" onclick="closeForm()"><i class="uil uil-times"></i></div>
 							</header>
 							<img src="https://image1.jdomni.in/jdomni_email/addToHomeScreen.svg" class="drawer-image">
 							  <p>Install Sachin's Portfolio App on your mobile device to get faster and lighter experience</p>
@@ -432,7 +432,9 @@ window.addEventListener("appinstalled", (event) => {
 // if ("serviceWorker" in navigator) {
 //   navigator.serviceWorker.register("pwabuilder-sw.js");
 // }
-
+function closeForm() {
+  document.getElementById("installContainer").style.display = "none";
+}
 
 </script>
 
