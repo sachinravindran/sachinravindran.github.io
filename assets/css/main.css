@@ -1659,7 +1659,7 @@ input, select, textarea {
 /* installContainer Popup Stylesheet */
 
 
-		.installContainer{
+		.pwainstall{
 			margin: 0;
 			padding: 0;
 			box-sizing: border-box;
@@ -1673,7 +1673,7 @@ input, select, textarea {
 			  display: flex;
 			  justify-content: center;
 			}
-			.installContainer button{
+			.pwainstall button{
 			  outline: none;
 			  cursor: pointer;
 			  font-weight: 500;
@@ -1684,7 +1684,7 @@ input, select, textarea {
 			  border: 2px solid transparent;
 			  transition: background 0.1s linear, border-color 0.1s linear, color 0.1s linear;
 			}
-			.installContainer{
+			.pwainstall{
 				position:fixed;
 				left: 50%;
 				bottom: 20px;
@@ -1715,35 +1715,35 @@ input, select, textarea {
 				text-align: center;
 				color: #000000;
 			}
-			.installContainer header span{
+			.pwainstall header span{
 			  font-size: 18px;
 			  font-weight: 600;
 			}
-			/* .installContainer header .closepwa, a{
+			/* .pwainstall header .closepwa, a{
 			  display: flex;
 			  align-items: center;
 			  border-radius: 50%;
 			  justify-content: center;
 			  transition: all 0.3s ease-in-out;
 			} */
-			.installContainer header .closepwa{
-			  color: #878787;
+			.pwainstall header .closepwa{
+			  /* color: #878787; */
 			  font-size: 17px;
-			  background: #f2f3fb;
+			  /* background: #f2f3fb; */
 			  height: 33px;
 			  width: 33px;
 			  cursor: pointer;
 			}
-			.installContainer header .closepwa:hover{
+			.pwainstall header .closepwa:hover{
 			  background: #ebedf9;
 			}
-		   .installContainer .field{
+		   .pwainstall .field{
 			  margin: 12px 0 -5px 0;
 			  height: 45px;
 			  border-radius: 4px;
 			  padding: 0 5px;
 			}
-			.installContainer .field button{
+			.pwainstall .field button{
 			  border: none;
 			  color: #fff;
 			  padding: 0px 18px;
@@ -1752,7 +1752,7 @@ input, select, textarea {
 			  letter-spacing: 0;
 			  font-family: 'Poppins', sans-serif;
 			}
-			.installContainer .field button:hover{
+			.pwainstall .field button:hover{
 			  background: #8d39fa;
 			}
 			.hidden {
