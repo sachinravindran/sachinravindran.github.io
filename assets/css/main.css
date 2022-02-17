@@ -1756,6 +1756,6 @@ input, select, textarea {
 			  background: #8d39fa;
 			}
 
-			#hidden {
+			.hidden {
   			display: none !important;
 			}
