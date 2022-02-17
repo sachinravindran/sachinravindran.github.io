@@ -1726,7 +1726,7 @@ input, select, textarea {
 			  justify-content: center;
 			  transition: all 0.3s ease-in-out;
 			} */
-			.installContainer header .close{
+			.installContainer header .closepwa{
 			  color: #878787;
 			  font-size: 17px;
 			  background: #f2f3fb;
@@ -1734,7 +1734,7 @@ input, select, textarea {
 			  width: 33px;
 			  cursor: pointer;
 			}
-			.installContainer header .close:hover{
+			.installContainer header .closepwa:hover{
 			  background: #ebedf9;
 			}
 		   .installContainer .field{
