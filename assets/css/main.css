@@ -1719,13 +1719,13 @@ input, select, textarea {
 			  font-size: 18px;
 			  font-weight: 600;
 			}
-			/* .installContainer header .close, a{
+			.installContainer header .closepwa, a{
 			  display: flex;
 			  align-items: center;
 			  border-radius: 50%;
 			  justify-content: center;
 			  transition: all 0.3s ease-in-out;
-			} */
+			}
 			.installContainer header .closepwa{
 			  color: #878787;
 			  font-size: 17px;
@@ -1755,7 +1755,6 @@ input, select, textarea {
 			.installContainer .field button:hover{
 			  background: #8d39fa;
 			}
-
 			.hidden {
   			display: none !important;
 			}
