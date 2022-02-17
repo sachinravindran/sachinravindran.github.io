@@ -1,11 +1,7 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
-/*
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -1200,7 +1196,7 @@ input, select, textarea {
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		position: relative;
-		min-height: 100vh;
+		/* min-height: 100vh; */
 		width: 100%;
 		padding: 4rem 2rem;
 		z-index: 3;
@@ -1659,3 +1655,107 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+/* installContainer Popup Stylesheet */
+
+
+		.installContainer{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: 'Poppins', sans-serif;
+		  }
+		  .drawer-image{
+			  padding-top: 10px;
+			  padding-bottom: 10px;
+			  width:90px;
+			  margin: 0 auto;
+			  display: flex;
+			  justify-content: center;
+			}
+			.installContainer button{
+			  outline: none;
+			  cursor: pointer;
+			  font-weight: 500;
+			  text-transform: none;
+			  border-radius: 4px;
+			  padding-top: 0;
+			  margin: 10px auto;
+			  border: 2px solid transparent;
+			  transition: background 0.1s linear, border-color 0.1s linear, color 0.1s linear;
+			}
+			.installContainer{
+				position:fixed;
+				left: 50%;
+				bottom: 20px;
+				transform: translate(-50%,0);
+				margin: 0 auto;
+			}
+		  .popup{
+			  background: #fff;
+			  padding: 25px;
+			  border-radius: 15px;
+			  max-width: 380px;
+			  min-width: 350px;
+			  width: 100%;
+			  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+		  
+			}
+			.popup :is(header, .field){
+			  display: flex;
+			  align-items: center;
+			  justify-content: space-between;
+			}
+			.popup header{
+			  padding-bottom: 15px;
+			  border-bottom: 1px solid #ebedf9;
+			  color:#000000;
+			}
+			.popup p{
+				text-align: center;
+				color: #000000;
+			}
+			.installContainer header span{
+			  font-size: 18px;
+			  font-weight: 600;
+			}
+			/* .installContainer header .close, a{
+			  display: flex;
+			  align-items: center;
+			  border-radius: 50%;
+			  justify-content: center;
+			  transition: all 0.3s ease-in-out;
+			} */
+			.installContainer header .close{
+			  color: #878787;
+			  font-size: 17px;
+			  background: #f2f3fb;
+			  height: 33px;
+			  width: 33px;
+			  cursor: pointer;
+			}
+			.installContainer header .close:hover{
+			  background: #ebedf9;
+			}
+		   .installContainer .field{
+			  margin: 12px 0 -5px 0;
+			  height: 45px;
+			  border-radius: 4px;
+			  padding: 0 5px;
+			}
+			.installContainer .field button{
+			  border: none;
+			  color: #fff;
+			  padding: 0px 18px;
+			  background: #7d2ae8;
+			  font-size: 12px;
+			  letter-spacing: 0;
+			  font-family: 'Poppins', sans-serif;
+			}
+			.installContainer .field button:hover{
+			  background: #8d39fa;
+			}
+
+			#hidden {
+  			display: none !important;
+			}
